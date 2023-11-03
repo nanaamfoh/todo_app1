@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           decoration: InputDecoration(
                             hintText: 'Task Title...',
                             focusedBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(10),
+                              borderRadius: BorderRadius.circular(5),
                               borderSide: BorderSide(
                                 color: Theme.of(context).colorScheme.secondary,
                               ),
@@ -143,10 +143,10 @@ class _HomeScreenState extends State<HomeScreen> {
           backgroundColor: Theme.of(context).colorScheme.primary,
           elevation: 0,
           title: const Text(
-            'My ToDo App',
+            'ToDo App',
             style: TextStyle(
                 color: Colors.black,
-                fontWeight: FontWeight.bold
+                fontWeight: FontWeight.w300
             ),
           ),
         ),
@@ -159,10 +159,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     itemCount: state.todos.length,
                     itemBuilder: (context, int i) {
                       return Card(
-                        color: Theme.of(context).colorScheme.primary,
-                        elevation: 1,
+                        color: Colors.white10,
+                        elevation: 0.4,
                         shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10)
+                            borderRadius: BorderRadius.circular(5)
                         ),
                         child: Slidable(
                             key: const ValueKey(0),
