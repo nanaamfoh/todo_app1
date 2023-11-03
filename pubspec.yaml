@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   uuid: ^3.0.7
   flutter_slidable: ^3.0.0
-
+  google_fonts:
   hydrated_bloc: ^9.1.2
   path_provider: ^2.0.15
   flutter_bloc: ^8.1.3
